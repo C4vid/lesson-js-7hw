@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Position</th>
+            <th>Delete</th>
+        </tr>
+    </table>
+
+    <button id="addBtn">Add user</button>
+
+    <div class="modal">
+        <form action="">
+            <input id="username" type="text" placeholder="Username">
+            <input type="text" id="email" placeholder="Email">
+            <input type="number" id="age" placeholder="Age">
+            <input type="text" id="position" placeholder="Position">
+            <button type="submit" id="myBtn">Register</button>
+            <button id="closeBtn">X</button>
+        </form>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
